@@ -645,5 +645,8 @@ function cntV(){
   sp.style.color=n>=5?'#2E7D52':n>=3?'#B8860B':'#B71C1C';
 }
 </script>
+<!-- === Botón de descarga para el alumno (añadido en lote) === -->
+<button onclick="window.print()" class="descargar-pdf" aria-label="Descargar o guardar en PDF" style="position:fixed;bottom:20px;right:20px;z-index:9999;background:#C2542F;color:#fff;border:none;cursor:pointer;font:700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;padding:12px 18px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25)">&#11015; Descargar / Guardar PDF</button>
+<style>@media print{.descargar-pdf,button{display:none!important}.key,details.key,.solucionario,.answer-key,.teacher-key{display:none!important}body{background:#fff!important}}</style>
 </body>
 </html>
